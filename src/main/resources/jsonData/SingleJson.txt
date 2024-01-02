@@ -1,0 +1,6 @@
+{
+        "BookID": 100,
+        "BookName": "science1",
+        "StudentID": 1,
+        "CheckoutDate": "2022-11-11"
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "BookID": 100,
+        "BookName": "science1",
+        "StudentID": 1,
+        "CheckoutDate": "2022-11-11"
+    },
+    {
+        "BookID": 101,
+        "BookName": "maths1",
+        "StudentID": 2,
+        "CheckoutDate": "2022-11-12"
+    },
+    {
+        "BookID": 102,
+        "BookName": "maths1",
+        "StudentID": 2,
+        "CheckoutDate": "2022-11-12"
+    }
+]

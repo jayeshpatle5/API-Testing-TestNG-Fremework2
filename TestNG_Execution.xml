@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API" verbose="2">
+
+  <test thread-count="5" name="Command line test 97b863bf-89de-400c-af66-911118382471" verbose="2">
+    <parameter name="dataSheet" value="API_DATA"/>
+    <parameter name="testCaseID" value="TC0001"/>
+    <classes>
+      <class name="com.parexel.automation.PetStore.API.Pet.PetTestCases">
+        <methods>
+          <include name="retrievePetDetailsByStatus"/>
+        </methods>
+      </class> <!-- com.parexel.automation.PetStore.API.Pet.PetTestCases -->
+    </classes>
+  </test> <!-- Command line test 97b863bf-89de-400c-af66-911118382471 -->
+  <test thread-count="5" name="Command line test 41b1c4b1-55de-454c-a47a-537de1221975" verbose="2">
+    <parameter name="dataSheet" value="API_DATA"/>
+    <parameter name="testCaseID" value="TC0002"/>
+    <classes>
+      <class name="com.parexel.automation.PetStore.API.Pet.PetTestCases">
+        <methods>
+          <include name="addNewPetDetails"/>
+        </methods>
+      </class> <!-- com.parexel.automation.PetStore.API.Pet.PetTestCases -->
+    </classes>
+  </test> <!-- Command line test 41b1c4b1-55de-454c-a47a-537de1221975 -->
+  <test thread-count="5" name="Command line test e3be93bc-0ee0-41ce-8c4c-59287ec5d0f6" verbose="2">
+    <parameter name="dataSheet" value="API_DATA"/>
+    <parameter name="testCaseID" value="TC0003"/>
+    <classes>
+      <class name="com.parexel.automation.PetStore.API.Pet.PetTestCases">
+        <methods>
+          <include name="fetchPetById"/>
+        </methods>
+      </class> <!-- com.parexel.automation.PetStore.API.Pet.PetTestCases -->
+    </classes>
+  </test> <!-- Command line test e3be93bc-0ee0-41ce-8c4c-59287ec5d0f6 -->
+  <test thread-count="5" name="Command line test 5e72c17f-930f-40d5-812a-51866ef205e5" verbose="2">
+    <parameter name="dataSheet" value="API_DATA"/>
+    <parameter name="testCaseID" value="TC0004"/>
+    <classes>
+      <class name="com.parexel.automation.PetStore.API.Pet.PetTestCases">
+        <methods>
+          <include name="removePetWithId"/>
+        </methods>
+      </class> <!-- com.parexel.automation.PetStore.API.Pet.PetTestCases -->
+    </classes>
+  </test> <!-- Command line test 5e72c17f-930f-40d5-812a-51866ef205e5 -->
+</suite> <!-- API -->
